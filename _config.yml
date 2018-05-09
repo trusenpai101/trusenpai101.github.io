@@ -23,6 +23,7 @@ url: "https:trusenpai101.github.io" # the base hostname & protocol for your site
 github_username:  trusenpai101
 disqus:
   shortnames: trusenpai101-github-io
+timezone: America/Los_Angeles
 
 # Build settings
 markdown: kramdown
