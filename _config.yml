@@ -18,11 +18,11 @@ email: troy.laubach@warriorlife.net
 description: >- # this means to ignore newlines until "baseurl:"
 "*" insert chicken image
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https:trusenpai101.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://trusenpai101.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 github_username:  trusenpai101
 disqus:
-  shortnames: trusenpai101-github-io
+  shortname: trusenpai101-github-io
 timezone: America/Los_Angeles
 
 # Build settings
