@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Header
-permalink: /header/
+title: Markdown
+permalink: /markdown/
 ---
 
-
+These are markdown features:
 
 
 EVERYHEADER!!!!!!!:
