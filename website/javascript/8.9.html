@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Try, Catch, Throw</title>
+<script type="text/javascript">
+function enter_a_number() {
+	var x = document.getElementById("X").value;
+	try {
+		if(x == "") throw "empty";
+		if(isNaN(x)) throw "not a number";
+		x = Number(x);
+		if(x < 5) throw "too low";
+		if(x > 10) throw "too high";
+		}
+			catch(err) {
+				alert(err)
+				}
+	}
+</script>
+</head>
+
+<body>
+<p>Please enter a number between 5 and 10:</p>
+<input id= "X" type="text">
+<input type="button" value="Test Input" onClick="enter_a_number()">
+<p id="Hello"></p>
+</body>
+</html>

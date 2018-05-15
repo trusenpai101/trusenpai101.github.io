@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Cookie Clicker v0.1</title>
+</head>
+
+<body>
+<button onClick="cookie_clicker()"><img src="https://media.giphy.com/media/26gs8nKrs7uduirss/source.gif"></button><br>
+<input type="text" value="0">
+<script>
+var cookie_score = 0;
+function cookie_clicker() {
+	cookies_score = cookie_score + 1;
+	document.getElementById("score").value = cookie_score;
+}
+</script>
+</body>
+</html>
