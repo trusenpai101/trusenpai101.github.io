@@ -6,5 +6,6 @@ catergories: uncatergorized
 ---
 
 I am in 7th grade, and this year i learned how to make a website.
-[click here][url]
+click [here][url]
+
 [url]: /website/index.html
