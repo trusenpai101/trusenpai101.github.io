@@ -1,0 +1,11 @@
+---
+layout: post
+title: "website"
+date: 2018-05-15 13:30:49 -0700
+catergories: uncatergorized
+---
+
+I am in 7th grade, and this year i learned how to make a website.
+Here it is 
+[website][url]
+[url]: /website/
