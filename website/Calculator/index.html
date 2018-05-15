@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Calculator</title>
+<!--Stylesheet-->
+<link rel="stylesheet" type="text/css" href="calculator.css">
+<!--JavaScript-->
+<script type="text/javascript" src="calculator.js"></script>
+</head>
+
+<body>
+<div class="box">
+		<div class="display"> <input type="text" readonly size="18" id="d"> </div>
+	<div class="keys">
+				<p>
+					<input type="button" class= "button function" value="π" onClick="v(Math.PI)">
+				
+						<input type="button" class="button function" value="m-" 
+					onClick="alert('Not yet implemented')">
+						<input type="button" class="button function" value="m+" 
+					onClick="alert('Not yet implemented')">
+					<input type="button" class="button operator" value="e" 
+					onClick="alert('Not yet implemented')">
+						</p>
+						<p>
+						<input type="button" class="button function" value="(" onClick="v('(')">
+						<input type="button" class="button function" value=")" onClick="v(')')">
+						<input type="button" class= "button function" value="e" onClick="v(Math.E)">
+						<input type="button" class="button operator" value="/" onClick="v('/')">
+		</p>
+						<p>
+		<input type="button" class="button number" value="7" onClick="v('7')">
+		<input type="button" class="button number" value="8" onClick="v('8')">
+		<input type="button" class="button number" value="9" onClick="v('9')">
+		<input type="button" class="button operator" value="*" onClick="v('*')">
+			</p>
+				<p>
+		<input type="button" class="button number" value="4" onClick="v('4')">		
+		<input type="button" class="button number" value="5" onClick="v('5')">		
+		<input type="button" class="button number" value="6" onClick="v('6')">		
+		<input type="button" class="button operator" value="-" onClick="v('-')">
+			</p>
+				<p>
+		<input type="button" class="button number" value="1" onClick="v('1')">
+		<input type="button" class="button number" value="2" onClick="v('2')">
+		<input type="button" class="button number" value="3" onClick="v('3')">
+		<input type="button" class="button operator" value="+" onClick="v('+')">
+			</p>
+		<p>
+			<input type="button" class="button number" value="0" onClick="v('0')">
+			<input type="button" class="button number" value="." onClick="v('.')">
+			<input type="button" class="button function" value="C" onClick="d(' ')">
+			<input type="button" class="button operator" value="=" onClick="e('')">
+</p>
+<p> 
+			<input type="button" class="button christmas" value="Christmas" onClick="christmas()">
+
+</p>
+	</div>
+</div>
+</body>
+</html>
