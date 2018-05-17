@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "website"
+title: "WEBSITE"
 date: 2018-05-15 13:30:49 -0700
 catergories: uncatergorized
 author: Troy Laubach
